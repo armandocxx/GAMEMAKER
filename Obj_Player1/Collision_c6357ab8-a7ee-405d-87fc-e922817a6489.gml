@@ -1,0 +1,11 @@
+key_ladder_up=keyboard_check(ord("W"))
+if(keyboard_check(ord("Q")))
+{
+	sprite_index=Spt_PlayerE1;
+	if(key_ladder_up)
+	{
+		vsp=-2;
+		sprite_index=Spt_PlayerEs2;
+        image_speed=1;
+	}
+}
